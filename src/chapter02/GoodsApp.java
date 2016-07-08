@@ -21,9 +21,12 @@ public class GoodsApp {
 		camera.setCountSold(scanner.nextInt());
 		
 		Goods goods1 = new Goods("camera", "200,000원", 50, 40);//개발자가 임의로 만든 생성자를 사용, 오버로딩 가능;기본생성자와 같이 사용 가능
-//		camera.showInfo();
-		System.out.println(camera.toString());
-		
+
 //		System.out.println("상품이름 :"+camera.name+", 가격: "+camera.price+", 재고개수:"+camera.countStock+", 팔린 개수: "+camera.countSold);
+		camera.showInfo();
+//		System.out.println(camera.toString());
+		
+//		System.out.println(Goods.getCountOfGoods());
+	
 	}
 }
